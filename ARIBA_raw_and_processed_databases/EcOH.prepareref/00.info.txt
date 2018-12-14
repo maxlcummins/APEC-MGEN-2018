@@ -1,0 +1,3 @@
+input fasta file:	EcOH.fasta
+input tsv file:	EcOH.prepareref/00.auto_metadata.tsv
+genetic_code	11

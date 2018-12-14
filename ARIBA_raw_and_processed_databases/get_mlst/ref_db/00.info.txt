@@ -1,0 +1,9 @@
+input fasta file:	/shared/homes/11025234/ARIBA_databases/get_mlst/pubmlst_download/adk.tfa
+input fasta file:	/shared/homes/11025234/ARIBA_databases/get_mlst/pubmlst_download/fumC.tfa
+input fasta file:	/shared/homes/11025234/ARIBA_databases/get_mlst/pubmlst_download/gyrB.tfa
+input fasta file:	/shared/homes/11025234/ARIBA_databases/get_mlst/pubmlst_download/icd.tfa
+input fasta file:	/shared/homes/11025234/ARIBA_databases/get_mlst/pubmlst_download/mdh.tfa
+input fasta file:	/shared/homes/11025234/ARIBA_databases/get_mlst/pubmlst_download/purA.tfa
+input fasta file:	/shared/homes/11025234/ARIBA_databases/get_mlst/pubmlst_download/recA.tfa
+input tsv file:	/shared/homes/11025234/ARIBA_databases/get_mlst/ref_db/00.auto_metadata.tsv
+genetic_code	11

@@ -1,0 +1,5 @@
+ARIBA run with this command:
+/shared/homes/11025234/miniconda3/envs/ariba/bin/ariba prepareref pubmlstget Escherichia coli#1 /shared/homes/11025234/ARIBA_databases/get_mlst
+from this directory: /shared/homes/11025234
+
+

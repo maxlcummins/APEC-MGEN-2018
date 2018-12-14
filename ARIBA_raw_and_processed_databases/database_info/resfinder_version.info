@@ -1,0 +1,31 @@
+Downloading data with:
+curl -X POST --data "folder=resfinder&filename=resfinder.zip" -o resfinder.zip https://cge.cbs.dtu.dk/cge/download_data.php
+Combining downloaded fasta files...
+    fusidicacid.fsa
+    phenicol.fsa
+    trimethoprim.fsa
+    oxazolidinone.fsa
+    tetracycline.fsa
+    beta-lactamase.fsa
+    vancomycin.fsa
+    quinolone.fsa
+    nitroimidazole.fsa
+    fosfomycin.fsa
+    aminoglycoside.fsa
+    macrolide.fsa
+    sulphonamide.fsa
+    rifampicin.fsa
+    colistin.fsa
+
+Finished combining files
+
+Finished. Final files are:
+	/shared/homes/11025234/ARIBA_databases/resfinder.fa
+	/shared/homes/11025234/ARIBA_databases/resfinder.tsv
+
+You can use them with ARIBA like this:
+ariba prepareref -f /shared/homes/11025234/ARIBA_databases/resfinder.fa -m /shared/homes/11025234/ARIBA_databases/resfinder.tsv output_directory
+
+If you use this downloaded data, please cite:
+"Identification of acquired antimicrobial resistance genes", Zankari et al 2012, PMID: 22782487
+

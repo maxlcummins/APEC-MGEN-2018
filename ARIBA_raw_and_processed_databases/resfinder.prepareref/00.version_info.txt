@@ -1,0 +1,28 @@
+ARIBA run with this command:
+/shared/homes/11025234/miniconda3/bin/ariba prepareref prepareref -f /shared/homes/11025234/ARIBA_databases/resfinder.fa -m /shared/homes/11025234/ARIBA_databases/resfinder.tsv /shared/homes/11025234/ARIBA_databases/resfinder.prepareref
+from this directory: /shared/homes/11025234
+
+ARIBA version: 2.10.1
+
+External dependencies:
+bowtie2	2.3.3.1	/shared/homes/11025234/miniconda3/bin/bowtie2
+cdhit	4.7	/shared/homes/11025234/miniconda3/bin/cd-hit-est
+nucmer	3.1	/shared/homes/11025234/miniconda3/bin/nucmer
+
+External dependencies OK: True
+
+Python version:
+3.6.0 |Continuum Analytics, Inc.| (default, Dec 23 2016, 12:22:00) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
+
+Python packages:
+ariba	2.10.1	/shared/homes/11025234/miniconda3/lib/python3.6/site-packages/ariba/__init__.py
+bs4	4.6.0	/shared/homes/11025234/miniconda3/lib/python3.6/site-packages/bs4/__init__.py
+dendropy	4.2.0	/shared/homes/11025234/miniconda3/lib/python3.6/site-packages/DendroPy-4.2.0-py3.6.egg/dendropy/__init__.py
+pyfastaq	3.14.0	/shared/homes/11025234/miniconda3/lib/python3.6/site-packages/pyfastaq-3.14.0-py3.6.egg/pyfastaq/__init__.py
+pymummer	0.10.3	/shared/homes/11025234/miniconda3/lib/python3.6/site-packages/pymummer/__init__.py
+pysam	0.11.2.2	/shared/homes/11025234/miniconda3/lib/python3.6/site-packages/pysam/__init__.py
+
+Python packages OK: True
+
+Everything looks OK: True

@@ -1,0 +1,23 @@
+Downloading data with:
+curl -X POST --data "folder=virulencefinder&filename=virulencefinder.zip" -o plasmidfinder.zip https://cge.cbs.dtu.dk/cge/download_data.php
+Combining downloaded fasta files...
+    s.aureus.fsa
+    s.aureus_toxin.fsa
+    virulence_ecoli.fsa
+    s.aureus_hostimm.fsa
+    stx.fsa
+    s.aureus_exoenzyme.fsa
+    virulence_ENT.fsa
+
+Finished combining files
+
+Finished. Final files are:
+	/shared/homes/11025234/ARIBA_databases/virulencefinder.fa
+	/shared/homes/11025234/ARIBA_databases/virulencefinder.tsv
+
+You can use them with ARIBA like this:
+ariba prepareref -f /shared/homes/11025234/ARIBA_databases/virulencefinder.fa -m /shared/homes/11025234/ARIBA_databases/virulencefinder.tsv output_directory
+
+If you use this downloaded data, please cite:
+"Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli", Joensen al 2014, PMID: 24574290
+

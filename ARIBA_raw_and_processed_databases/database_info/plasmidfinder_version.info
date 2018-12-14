@@ -1,0 +1,18 @@
+Downloading data with:
+curl -X POST --data "folder=plasmidfinder&filename=plasmidfinder.zip" -o plasmidfinder.zip https://cge.cbs.dtu.dk/cge/download_data.php
+Combining downloaded fasta files...
+    plasmid_database.fsa
+    plasmid_positiv.fsa
+
+Finished combining files
+
+Finished. Final files are:
+	/shared/homes/11025234/ARIBA_databases/plasmidfinder.fa
+	/shared/homes/11025234/ARIBA_databases/plasmidfinder.tsv
+
+You can use them with ARIBA like this:
+ariba prepareref -f /shared/homes/11025234/ARIBA_databases/plasmidfinder.fa -m /shared/homes/11025234/ARIBA_databases/plasmidfinder.tsv output_directory
+
+If you use this downloaded data, please cite:
+"PlasmidFinder and pMLST: in silico detection and typing of plasmids", Carattoli et al 2014, PMID: 24777092
+

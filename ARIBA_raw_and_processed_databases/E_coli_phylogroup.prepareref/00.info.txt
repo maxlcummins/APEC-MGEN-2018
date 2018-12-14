@@ -1,0 +1,3 @@
+input fasta file:	/shared/homes/11025234/ARIBA_databases/E_coli_phylogroup.fasta
+input tsv file:	/shared/homes/11025234/ARIBA_databases/E_coli_phylogroup.prepareref/00.auto_metadata.tsv
+genetic_code	11
