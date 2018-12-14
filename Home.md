@@ -1,1 +1,0 @@
-This wiki provides a workflow for a submission to Microbial Genomics titled "Whole Genome Sequence Analysis of Australian Drug Resistant Avian Pathogenic E. coli". On the right hand side of this wiki you can see workflows for the data and figures generated during this research.
